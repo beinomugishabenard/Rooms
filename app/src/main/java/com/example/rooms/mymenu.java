@@ -13,6 +13,7 @@ import android.view.MenuItem;
 
 public class mymenu extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +43,12 @@ public class mymenu extends AppCompatActivity {
                 Intent my2= new Intent(mymenu.this, MainActivity.class);
                 startActivity(my2);
                 break;
+
+            case R.id.display:
+                Intent my3= new Intent(mymenu.this, dviews.class);
+                startActivity(my3);
+                break;
+
 
 
             default:
