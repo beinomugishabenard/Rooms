@@ -36,7 +36,7 @@ public class mymenu extends AppCompatActivity {
                 startActivity(my);
                 break;
             case R.id.view:
-                Intent my1 = new Intent(mymenu.this, login.class);
+                Intent my1 = new Intent(mymenu.this, data.class);
                 startActivity(my1);
                 break;
             case R.id.set:

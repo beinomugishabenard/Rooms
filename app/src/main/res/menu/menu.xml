@@ -6,7 +6,7 @@
     <item
         android:id="@+id/home"
         android:title="home"
-        tools:id="home" />
+         />
     <item
         android:id="@+id/view"
         android:title="view" />
